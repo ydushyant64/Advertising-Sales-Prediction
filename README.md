@@ -10,7 +10,7 @@ You can interact with the live application here:
 
 **[https://advertising-sales-prediction-ntdl.onrender.com]**
 
-![Screenshot of the Advertisement Sales Prediction App](screenshot.PNG)
+![Screenshot of the Advertisement Sales Prediction App](Webpage.PNG)
 
 ---
 
