@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sales Prediction</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #6dd5ed, #2193b0);
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            background: rgba(0, 0, 0, 0.5);
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            width: 100%;
+            max-width: 400px;
+        }
+        h1 { margin-bottom: 25px; }
+        form input {
+            width: calc(100% - 24px);
+            padding: 12px;
+            margin-bottom: 15px;
+            border-radius: 5px;
+            border: 1px solid #555;
+            background: #333;
+            color: white;
+            font-size: 16px;
+        }
+        button {
+            width: 100%;
+            padding: 12px;
+            border: none;
+            border-radius: 5px;
+            background-color: #ff6b6b;
+            color: white;
+            font-size: 18px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        button:hover { background-color: #ee5253; }
+        .prediction-text {
+            margin-top: 25px;
+            font-size: 22px;
+            font-weight: bold;
+            color: #feca57;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Advertising Sales Prediction 📈</h1>
+        <form action="{{ url_for('predict') }}" method="post">
+            <input type="text" name="TV" placeholder="TV Ad Budget ($)" required="required" />
+            <input type="text" name="Radio" placeholder="Radio Ad Budget ($)" required="required" />
+            <input type="text" name="Newspaper" placeholder="Newspaper Ad Budget ($)" required="required" />
+            <button type="submit">Predict Sales</button>
+        </form>
+        {% if prediction_text %}
+            <h3 class="prediction-text">{{ prediction_text }}</h3>
+        {% endif %}
+    </div>
+</body>
+</html>
