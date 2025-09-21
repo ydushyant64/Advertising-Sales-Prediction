@@ -4,6 +4,16 @@ A machine learning project that predicts product sales based on advertising expe
 
 ---
 
+## ✨ Live Demo
+
+You can interact with the live application here:
+
+**[https://your-app-link.onrender.com/][(https://your-app-link.onrender.com/](https://advertising-sales-prediction-ntdl.onrender.com))**
+
+![Screenshot of the Advertisement Sales Prediction App](screenshot.PNG)
+
+---
+
 ## ✨ Features
 
 -   **Predictive Model:** Utilizes a Linear Regression model to forecast sales.
@@ -26,5 +36,5 @@ To get a local copy up and running, follow these simple steps.
 
 **1. Clone the repository:**
 ```bash
-git clone [https://github.com/your-username/Advertisement-Sales-Prediction.git](https://github.com/your-username/Advertisement-Sales-Prediction.git)
+git clone [https://github.com/ydushyant64/Advertisement-Sales-Prediction.git](https://github.com/ydushyant64/Advertisement-Sales-Prediction.git)
 cd Advertisement-Sales-Prediction
