@@ -8,7 +8,7 @@ A machine learning project that predicts product sales based on advertising expe
 
 You can interact with the live application here:
 
-**[https://your-app-link.onrender.com/][(https://your-app-link.onrender.com/](https://advertising-sales-prediction-ntdl.onrender.com))**
+**[https://advertising-sales-prediction-ntdl.onrender.com]**
 
 ![Screenshot of the Advertisement Sales Prediction App](screenshot.PNG)
 
