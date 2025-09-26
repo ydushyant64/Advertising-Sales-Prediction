@@ -18,8 +18,6 @@ Here’s a snapshot of the application in action. You can input your ad budgets 
 
 ![Application Screenshot](Webpage.PNG)
 
-*(To make this image appear, just upload a screenshot of your webpage to the repository and name it `screenshot.PNG`)*
-
 ---
 
 ## The Big Idea
