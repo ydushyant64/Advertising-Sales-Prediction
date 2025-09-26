@@ -10,8 +10,6 @@ You can try the live application here:
 
 **[https://huggingface.co/spaces/ydushyant64/Advertising_sales_prediction](https://huggingface.co/spaces/ydushyant64/Advertising_sales_prediction))**
 
-*(Note: Remember to replace the link above with your actual deployed application URL.)*
-
 ---
 
 ## A Quick Look
