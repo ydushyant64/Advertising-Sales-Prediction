@@ -38,7 +38,7 @@ The goal was to create a straightforward tool to help make marketing budget deci
     I used a **Linear Regression** model, a reliable and easy-to-understand machine learning algorithm. It learns the relationship between each advertising channel and sales, figuring out which channels give the biggest bang for your buck.
 
 3.  **The Interface: Flask Web App**
-    To make the model usable, I wrapped it in a web application built with **Flask**. The interface is a simple form styled with HTML and CSS, making it easy to input your numbers and see the prediction.
+    To make the model usable, I wrapped it in a web application built with **Flask**. The interface is a simple form styled with HTML, making it easy to input your numbers and see the prediction.
 
 ---
 
