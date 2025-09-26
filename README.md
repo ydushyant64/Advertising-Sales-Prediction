@@ -18,7 +18,7 @@ You can try the live application here:
 
 Here’s a snapshot of the application in action. You can input your ad budgets and get an instant sales forecast!
 
-![Application Screenshot](webpage.PNG)
+![Application Screenshot](Webpage.PNG)
 
 *(To make this image appear, just upload a screenshot of your webpage to the repository and name it `screenshot.PNG`)*
 
